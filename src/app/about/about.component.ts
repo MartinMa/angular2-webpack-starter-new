@@ -6,8 +6,7 @@ import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'about',
-  styles: [`
-  `],
+  styleUrls: ['about.component.scss'],
   template: `
     <h1>About</h1>
     <div>
@@ -15,7 +14,7 @@ import { ActivatedRoute } from '@angular/router';
       <pre>npm run start:hmr</pre>
     </div>
     <div>
-      <h3>
+      <h3 class="blubb">
         patrick@AngularClass.com
       </h3>
     </div>
